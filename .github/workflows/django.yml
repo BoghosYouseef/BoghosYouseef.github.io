@@ -23,7 +23,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        pwd
+        cp requirements.txt .github/workflows/requirements.txt
         python -m pip install -r .github/workflows/requirements.txt
     - name: Run Tests
       run: |
