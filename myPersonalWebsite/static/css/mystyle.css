@@ -1,0 +1,16 @@
+:root {
+    --myorange: #eb5e28;
+    --myblack: #252422;
+    --mydarkgrey: #403d39;
+    --mylightgrey: #ccc5b9;
+    --mywhite: #fffcf2;
+}
+
+body {
+    background-color: var(--mywhite);
+    
+}
+
+.text-myblack {
+    color: var(--myblack);
+}
